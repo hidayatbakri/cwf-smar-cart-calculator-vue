@@ -60,7 +60,6 @@
 <script setup lang="ts">
 import { inject } from "vue";
 import type { ItemsType } from "../lib/types/Items";
-import OrderSummary from "./OrderSummary.vue";
 
 const items = inject<ItemsType[]>("items");
 
